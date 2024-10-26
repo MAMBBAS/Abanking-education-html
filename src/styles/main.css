@@ -13,14 +13,15 @@ body {
 .container {
   width: 1440px;
   background-color: #1e252b;
-  padding-top: 26px;
 }
 
 .header {
+  padding: 26px 0 26px;
   margin: 0 105px 0 111px;
   width: 1224px;
 }
 .header__nav {
+  padding: 26px 0 26px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -79,6 +80,20 @@ body {
 .buttons-wrapper__button--active {
   background-color: #FF6E30;
   opacity: 100%;
+}
+
+.container-right {
+  padding-left: 111px;
+}
+
+.hero {
+  width: 1375px;
+  height: 890px;
+  background-image: url("../assets/images/illustration.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  padding-top: 158px;
 }
 
 /*# sourceMappingURL=main.css.map */
