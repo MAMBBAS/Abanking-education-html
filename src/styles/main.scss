@@ -104,11 +104,45 @@ body {
   height:890px;
   background-image: url('../assets/images/illustration.svg');
   background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
+  background-position: right top;
+  background-size: 700px 600px;
   padding-top: 158px;
 
-  &__title {
+  &__content {
+    width: 600px;
+    height: 354px;
+    margin-bottom: 110px;
 
+    &__title {
+      font-size: 50px;
+      line-height: 70px;
+      margin-bottom: 30px;
+    }
+
+    &__paragraph {
+      font-weight: 400;
+      opacity: 55%;
+      font-size: 18px;
+      line-height: 30px;
+      margin-bottom: 60px;
+    }
   }
+
+  &__search{
+    width: 497px;
+    height:64px;
+  }
+
+  &__socials {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+
+    &__item {
+      width:58px;
+      height:auto;
+    }
+  }
+
 }
+
