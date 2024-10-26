@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+}
+
+.container {
+  width: 1440px;
+  background-color: #1e252b;
+  padding-top: 26px;
+}
+
+.header {
+  margin: 0 105px 0 111px;
+  width: 1224px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.logo__image {
+  width: 38px;
+  height: auto;
+}
+.logo__name {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+}
+
+.nav-list {
+  width: 431px;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+.nav-list__item a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 55%;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+.nav-list__item a:hover {
+  opacity: 100%;
+}
+
+.buttons-wrapper {
+  display: flex;
+  cursor: pointer;
+  gap: 40px;
+}
+.buttons-wrapper__button {
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-family: Poppins, sans-serif;
+  color: white;
+  opacity: 55%;
+  border: none;
+  background: none;
+  font-size: 16px;
+}
+.buttons-wrapper__button--active {
+  background-color: #FF6E30;
+  opacity: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

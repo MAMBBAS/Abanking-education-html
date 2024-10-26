@@ -6,11 +6,67 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>antools.</title>
 </head>
 
 <body>
-    
+<div class='container'>
+    <header class='header'>
+        <div class = 'header__nav'>
+            <div class='logo'>
+                <img class='logo__img' src="assets/images/logo.png" alt="Antools logotype">
+                <span class='logo__name'>antools.</span>
+            </div>
+            <ul class='nav-list'>
+                <li class='nav-list__item'><a href="#">Home</a></li>
+                <li class='nav-list__item'><a href="#">Categories</a></li>
+                <li class='nav-list__item'><a href="#">My collections</a></li>
+                <li class='nav-list__item'><a href="#">Blog</a></li>
+            </ul>
+            <div class='buttons-wrapper'>
+                <button class="buttons-wrapper__button">Login</button>
+                <button class="buttons-wrapper__button buttons-wrapper__button--active">Sign up</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class='hero'>
+            <h1 class='hero__title'>Awesome tools for Designer & Developer.</h1>
+            <p>Antool is a web collection of information on paid or free Design and Development tools</p>
+            <img class='search' src='#' alt=''>
+            <ul class='socials'>
+                <li class='socials__item'><svg></svg></li>
+                <li class='socials__item'><svg></svg></li>
+                <li class='socials__item'><svg></svg></li>
+            </ul>
+        </div>
+
+        <div class='tools'>
+            <h2>Most Popular Tools</h2>
+            <p>Tools for the best Designers and Developers most popularly used in the world</p>
+            <div class="tools-grid">
+                <div class="tools-grid__item">1</div>
+                <div class="tools-grid__item">2</div>
+                <div class="tools-grid__item">3</div>
+                <div class="tools-grid__item">4</div>
+                <div class="tools-grid__item grid__item--featured">5</div>
+                <div class="tools-grid__item grid__item--highlighted">6</div>
+            </div>
+        </div>
+    </main>
+
+    <footer class='footer'>
+        <h3>Trusted more than 150+ brand</h3>
+        <div class='company-list'>
+            <svg></svg>
+            <svg></svg>
+            <svg></svg>
+            <svg></svg>
+        </div>
+    </footer>
+</div>
 </body>
 
 </html>
