@@ -19,9 +19,9 @@ body {
   padding: 26px 0 26px;
   margin: 0 105px 0 111px;
   width: 1224px;
+  height: 100px;
 }
 .header__nav {
-  padding: 26px 0 26px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -46,7 +46,9 @@ body {
   width: 431px;
   list-style: none;
   display: flex;
+  justify-content: space-between;
   gap: 40px;
+  padding: 0;
 }
 .nav-list__item a {
   font-size: 16px;
@@ -88,17 +90,20 @@ body {
 
 .hero {
   width: 1375px;
-  height: 890px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 84px;
   background-image: url("../assets/images/illustration.svg");
   background-repeat: no-repeat;
-  background-position: right top;
-  background-size: 700px 600px;
-  padding-top: 158px;
+  background-position: right 100px;
+  background-size: 700px 590px;
+  padding-top: 104px;
 }
 .hero__content {
   width: 600px;
   height: 354px;
-  margin-bottom: 110px;
 }
 .hero__content__title {
   font-size: 50px;
@@ -117,13 +122,22 @@ body {
   height: 64px;
 }
 .hero__socials {
+  height: 58px;
   list-style: none;
   display: flex;
+  justify-content: start;
   gap: 8px;
 }
 .hero__socials__item {
   width: 58px;
-  height: auto;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tools {
+  padding-top: 200px;
 }
 
 /*# sourceMappingURL=main.css.map */
