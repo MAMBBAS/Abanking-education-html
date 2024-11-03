@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles/main.css">
     <title>antools.</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -35,9 +36,17 @@
         <div class='container-right'>
             <div class='hero'>
                 <div class="hero__content">
-                    <h1 class='hero__content__title'>Awesome tools for Designer & Developer.</h1>
+                    <h1 class='hero__content__title'>Awesome tools for Designer & Developer<span class="orange_dot">.</span></h1>
                     <p class='hero__content__paragraph'>Antool is a web collection of information on paid or free Design and Development tools</p>
-                <img class='hero__search' src='./assets/images/search.png' alt=''>
+                <div class="hero__search">
+                    <div class="hero__search__inputField">
+                        <img class="hero__search__icon" src='assets/images/search.svg' alt="search icon">
+                        <p><label>
+                            <input type=text class="hero__search__input" name="search" placeholder="find more than 430+ tools...">
+                        </label></p>
+                    </div>
+                    <button class="hero__search__button">Search</button>
+                </div>
                 </div>
                 <ul class='hero__socials'>
                     <li class='hero__socials__item'><img src="./assets/images/facebook.svg" alt="facebook"></li>
@@ -64,11 +73,11 @@
                     <p class="gridElement__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="gridElement__controls">
                         <div class="gridElement__controls__buttons">
-                           <img src="assets/images/like.svg" alt="Поставить лайк" width=28px height=28px>
-                            <img src="assets/images/add.svg" alt="Добавить в закладки" width=30px height=30px>
+                           <button class="like-button"><img src="assets/images/like.svg" alt="Поставить лайк" width=28px height=28px></button>
+                            <button class="add-button"><img src="assets/images/add.svg" alt="Добавить в закладки" width=30px height=30px></button>
                         </div>
 
-                        <p>Visit</p>
+                        <button class="gridElement__controls__visit">Visit</button>
                     </div>
                 </div>
 
@@ -85,11 +94,11 @@
                     <p class="gridElement__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="gridElement__controls">
                         <div class="gridElement__controls__buttons">
-                            <img src="assets/images/like.svg" alt="Поставить лайк" width=28px height=28px >
-                            <img src="assets/images/add.svg" alt="Добавить в закладки" width=30px height=30px>
+                            <button class="like-button"><img src="assets/images/like.svg" alt="Поставить лайк" width=28px height=28px ></button>
+                            <button class="add-button"><img src="assets/images/add.svg" alt="Добавить в закладки" width=30px height=30px></button>
                         </div>
 
-                        <p>Visit</p>
+                        <button class="gridElement__controls__visit">Visit</button>
                     </div>
                 </div>
 
@@ -106,11 +115,11 @@
                     <p class="gridElement__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="gridElement__controls">
                         <div class="gridElement__controls__buttons">
-                            <img src="assets/images/like.svg" alt="Поставить лайк" width=28px height=28px >
-                            <img src="assets/images/add.svg" alt="Добавить в закладки" width=30px height=30px>
+                            <button class="like-button"><img src="assets/images/like.svg" alt="Поставить лайк" width=28px height=28px ></button>
+                            <button class="add-button"><img src="assets/images/add.svg" alt="Добавить в закладки" width=30px height=30px></button>
                         </div>
 
-                        <p>Visit</p>
+                        <button class="gridElement__controls__visit">Visit</button>
                     </div>
                 </div>
 
@@ -127,11 +136,11 @@
                     <p class="gridElement__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="gridElement__controls">
                         <div class="gridElement__controls__buttons">
-                            <img src="assets/images/like.svg" alt="Поставить лайк" width=28px height=28px >
-                            <img src="assets/images/add.svg" alt="Добавить в закладки" width=30px height=30px>
+                            <button class="like-button"><img src="assets/images/like.svg" alt="Поставить лайк" width=28px height=28px ></button>
+                            <button class="add-button"><img src="assets/images/add.svg" alt="Добавить в закладки" width=30px height=30px></button>
                         </div>
 
-                        <p>Visit</p>
+                        <button class="gridElement__controls__visit">Visit</button>
                     </div>
                 </div>
 
@@ -147,11 +156,11 @@
                     <p class="gridElement__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="gridElement__controls">
                         <div class="gridElement__controls__buttons">
-                            <img src="assets/images/like.svg" alt="Поставить лайк" width=28px height=28px >
-                            <img src="assets/images/add.svg" alt="Добавить в закладки" width=30px height=30px>
+                            <button class="like-button"><img src="assets/images/like.svg" alt="Поставить лайк" width=28px height=28px ></button>
+                            <button class="add-button"><img src="assets/images/add.svg" alt="Добавить в закладки" width=30px height=30px></button>
                         </div>
 
-                        <p>Visit</p>
+                        <button class="gridElement__controls__visit">Visit</button>
                     </div>
                 </div>
 
@@ -168,24 +177,25 @@
                     <p class="gridElement__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="gridElement__controls">
                         <div class="gridElement__controls__buttons">
-                            <img src="assets/images/like.svg" alt="Поставить лайк" width=28px height=28px >
-                            <img src="assets/images/add.svg" alt="Добавить в закладки" width=30px height=30px>
+                            <button class="like-button"><img src="assets/images/like.svg" alt="Поставить лайк" width=28px height=28px ></button>
+                            <button class="add-button"><img src="assets/images/add.svg" alt="Добавить в закладки" width=30px height=30px></button>
                         </div>
 
-                        <p>Visit</p>
+                        <button class="gridElement__controls__visit">Visit</button>
                     </div>
                 </div>
             </div>
+            <button class="load-button">Load more</button>
         </div>
     </main>
 
     <footer class='footer'>
         <h3>Trusted more than 150+ brand</h3>
-        <div class='company-list'>
-            <svg></svg>
-            <svg></svg>
-            <svg></svg>
-            <svg></svg>
+        <div class='footer__list'>
+            <div class='company'><img src="assets/images/microsoft.png" alt="Microsoft"></div>
+            <div class='company'><img src="assets/images/google.png" alt="Google"></div>
+            <div class='company'><img src="assets/images/full_slack.png" alt="Slack"></div>
+            <div class='company'><img src="assets/images/wordpress.png" alt="Wordpress"></div>
         </div>
     </footer>
 </div>
